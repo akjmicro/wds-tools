@@ -1,19 +1,26 @@
 ## Washington Double Star Catalog Tools
 
-This is a handy and practical toolkit for astronomers interested in doubles star
-observing, and selecting various populations of double stars against various
-attributes, via SQL/sqlite3 tools. The data comes from the legendary, venerable,
-and largest catalog for double-stars in history: the Washington Double Star Catalog.
+This is a handy and practical toolkit for astronomers interested in 
+doubles star observing, and selecting various populations of double 
+stars against various attributes, via SQL/sqlite3 tools. The data comes 
+from the legendary, venerable, and largest catalog for double-stars in 
+history: the Washington Double Star Catalog.
 
-This kit makes it easy for anyone to get up and running, since it is also
-distributed as a ready-made `docker` container. But even if you don't use `docker`,
-it is quite easy to get going anyway by cloning the `github` repo.
+This kit makes it easy for anyone to get up and running, since it is 
+also distributed as a ready-made `docker` container. But even if you 
+don't use `docker`, it is quite easy to get going anyway by cloning the 
+`github` repo.
 
 ### Running with `docker`:
-  * If you run a decent OS (`Linux` or `MacOS`) with a decent shell, these should work:
-    * Option 1 (fetching the image and running it): `./fetch_and_run_docker.sh`
-    * Option 2 (building the image locally, and running it): `./build_and_run_docker.sh`
-  * If you are stuck with a bad OS like `Windows` (truly sorry), but have `docker` running, you can do:
+  * If you run a decent OS (`Linux` or `MacOS`) with a decent shell, 
+  these should work:
+    * Option 1 (fetching the image and running it): 
+    `./fetch_and_run_docker.sh`
+    * Option 2 (building the image locally, and running it): 
+    `./build_and_run_docker.sh`
+
+  * If you are stuck with a bad OS like `Windows` (truly sorry), but 
+  have `docker` running, you can do:
     * `docker pull akjmicro17/wds-tools`
     * `docker run -it akjmicro17/wds-tools`
 
@@ -23,9 +30,10 @@ it is quite easy to get going anyway by cloning the `github` repo.
 
 ### How to use
 
-Typically, you will only need to just fire up an `sqlite3` command against the
-database, and just query using normal SQL. Understanding the use of SQL is beyond
-the scope of this documentation, however, a couple of examples might help:
+Typically, you will only need to just fire up an `sqlite3` command 
+against the database, and just query using normal SQL. Understanding the 
+use of SQL is beyond the scope of this documentation, however, a couple 
+of examples might help:
 
 ```
 sqlite3 wds_doubles.db
@@ -35,14 +43,35 @@ select * from medium_doubles;
 select * from tight_doubles where (mag2 - mag1) < 4;
 ```
 
-Have a look at the setup of the database with certain views, etc. that exist in
-`dbsetup.sql`. Feel free to modify those or add to them to your heart's content.
+Have a look at the setup of the database with certain views, etc. that 
+exist in `dbsetup.sql`. Feel free to modify those or add to them to your 
+heart's content.
 
-In the event you feel the data is not up-to-date, just run `refresh_data_setup.sh`
+In the event you feel the data is not up-to-date, just run 
+`refresh_data_setup.sh`
 
-### TODO
+### Exporting to SkySafari
 
-Eventually, I'll add a SkySafari observing list export script here.
+If you create a nice database view of a select subset of interesting 
+doubles, you can reference that view and auto-dump to a file called 
+`export.skylist`. Here's how:
+
+```
+sqlite3 wds_doubles.db
+# Now, in the sqlite3 prompt:
+.read make_skysafari_list.sql
+```
+
+Your new importable list is called `export.skylist`. Mail it as an 
+attachment to yourself, import into `SkySafari` via, for example for the 
+mobile app, clicking on the email attachment which will automatically 
+add a new observing list for `.skylist` types. For best results, so more 
+details get added, an extra step can be to now export this list _back 
+out_ to yourself via email. The reason being: SkySafri automatically 
+indexes the catalog entries properly with extra details from its own 
+database. Once done, you can then delete the originally imported list 
+and re-import the list you just exported that contains all the added 
+details.
 
 ### Odds and ends
 Contact me with questions, or if you want to add to the project.
