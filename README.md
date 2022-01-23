@@ -10,8 +10,12 @@ distributed as a ready-made `docker` container. But even if you don't use `docke
 it is quite easy to get going anyway by cloning the `github` repo.
 
 ### Running with `docker`:
-  * Option 1 (fetching the image and running it): `./fetch_and_run_docker.sh`
-  * Option 2 (building the image locally, and running it): `./build_and_run_docker.sh`
+  * If you run a decent OS (`Linux` or `MacOS`) with a decent shell, these should work:
+    * Option 1 (fetching the image and running it): `./fetch_and_run_docker.sh`
+    * Option 2 (building the image locally, and running it): `./build_and_run_docker.sh`
+  * If you are stuck with a bad OS like `Windows` (truly sorry), but have `docker` running, you can do:
+    * `docker pull akjmicro17/wds-tools`
+    * `docker run -it akjmicro17/wds-tools`
 
 ### Or, grab the code via `github`:
 
