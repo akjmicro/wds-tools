@@ -57,6 +57,9 @@ doubles, you can reference that view and auto-dump to a file called
 `export.skylist`. Here's how:
 
 ```
+# Edit the contents of `make_skysafari_list.sql` first
+# so that you capture whatever view or select statement you want
+# The you can do:
 sqlite3 wds_doubles.db
 # Now, in the sqlite3 prompt:
 .read make_skysafari_list.sql
@@ -65,13 +68,13 @@ sqlite3 wds_doubles.db
 Your new importable list is called `export.skylist`. Mail it as an 
 attachment to yourself, import into `SkySafari` via, for example for the 
 mobile app, clicking on the email attachment which will automatically 
-add a new observing list for `.skylist` types. For best results, so more 
-details get added, an extra step can be to now export this list _back 
-out_ to yourself via email (from SkySafari). The reason being: SkySafari 
-automatically indexes the catalog entries properly with extra details 
-from its own database. Once done, you can then delete the originally 
-imported list and re-import the list you just exported that contains all 
-the added details.
+add a new observing list for `.skylist` file-types. For best results, so 
+more details get added, an extra step can be to now export this list 
+_back out_ to yourself via email (from `SkySafari`). The reason being: 
+`SkySafari` automatically indexes the catalog entries properly with 
+extra details from its own database. Once done, you can then delete the 
+originally imported list and re-import the list you just exported that 
+contains all the added details.
 
 ### Odds and ends
 Contact me with questions, or if you want to add to the project.
