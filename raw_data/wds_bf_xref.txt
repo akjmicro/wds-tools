@@ -14,7 +14,7 @@
 00145-0747 BU  486    AD Cet                .                     .                     .                        
 00150+0849 STF  12    35 Psc                UU Psc                .                     .                        
 00171+3841 CHR 123    the And               24 And                .                     .                        
-00184+4401 GRB  34B   CQ And                .                     .                     .                        
+00184+4401 GRB  34    GX And                .                     .                     .                        
 00187+4347 STT   5    26 And                .                     .                     .                        
 00192+5942 KR    4    V377 Cas              .                     .                     .                        
 00194-0849 HJ 1953    iot Cet               8 Cet                 .                     .                        
@@ -22,6 +22,7 @@
 00229-1213 BUP   6    9 Cet                 .                     .                     .                        
 00240+3835 BUP   7    R And                 .                     .                     .                        
 00243+5201 HU  506    V746 Cas              .                     .                     .                        
+00244-0158 FSM   3    DY Psc                .                     .                     .                        
 00254+0156 STT   8    44 Psc                .                     .                     .                        
 00263-4218 CRU9004    alp Phe               .                     Ankaa                 .                        
 00300-0357 HJ  322    12 Cet                .                     .                     .                        
@@ -111,6 +112,7 @@
 01348+2935 BRT   5    RS Tri                .                     .                     .                        
 01361-2954 HJ 3447    tau Scl               .                     .                     .                        
 01368+4124 BUP  23    ups And               50 And                Titawin               .                        
+01377-5714 KRV  54    Achernar              alp Eri               .                     .                        
 01385+7302 HJ 2054    40 Cas                .                     .                     .                        
 01388-1758 LDS 838    UV Cet                .                     .                     .                        
 01398-5612 DUN   5    p Eri                 .                     .                     .                        
@@ -243,6 +245,7 @@
 03282+0409 A  2417B   V1221 Tau             .                     .                     .                        
 03282-3551 I    58    chi 3 For             .                     .                     .                        
 03284+2248 BAG   2    66 Ari                .                     .                     .                        
+03291+5956 STF 385    CS Cam                .                     .                     .                        
 03294+4931 BU 1179    34 Per                .                     .                     .                        
 03294-6256 HJ 3580    kap Ret               .                     .                     .                        
 03329-0927 BLA   2    eps Eri               18 Eri                Ran                   .                        
@@ -346,6 +349,7 @@
 04263+1537 BUP  59    71 Tau                V777 Tau              .                     .                        
 04263+2249 BUP  58    ups Tau               69 Tau                .                     .                        
 04269+2607 SMN  10    FV Tau c              .                     .                     .                        
+04284+1444 CIA  25    76 Tau                .                     .                     .                        
 04286+1558 MCA  15    the 1 Tau             the Tau               77 Tau                .                        
 04286+1911 BUP  61    eps Tau               74 Tau                Ain                   .                        
 04287+1552 STFA 10    the 2 Tau             the Tau               78 Tau                Chamukuy                 
@@ -353,6 +357,7 @@
 04295+1752 BGH   2    V921 Tau              .                     .                     .                        
 04295+2617 SMN  11    FW Tau                .                     .                     .                          
 04299+2607 HER   9    IQ Tau                .                     .                     .                          
+04299+2446 CJF   2    V586 Tau              .                     .                     .                          
 04301+1538 STF 554    80 Tau                .                     .                     .                        
 04301+1814 JOY   2    UX Tau                .                     .                     .                        
 04306+1343 BUP  63    83 Tau                .                     .                     .                        
@@ -476,6 +481,7 @@
 05312+0318 STF 729    33 Ori                n 1 Ori               .                     .                        
 05319-7620 HJ 3795    gam Men               .                     .                     .                        
 05320-0018 HEI  42    del Ori               Mintaka               .                     .                        
+05321-0305 JNN  39    V1311 Ori             .                     .                     .                        
 05327-1749 HJ 3766    alp Lep               11 Lep                Arneb                 .                        
 05343+0346 STT 110    38 Ori                .                     .                     .                        
 05343-0530 DCH 112    WZ Ori                .                     .                     .                        
@@ -505,7 +511,9 @@
 05355-0515 DCH 113    V1432 Ori             .                     .                     .                        
 05355-0525 S   490    V361 Ori              .                     .                     .                        
 05357-0451 HLD 173    45 Ori                .                     .                     .                        
+05358-0529 HLB   1    T Ori                 .                     .                     .                        
 05362-0112 BUP  81    eps Ori               46 Ori                Alnilam               .                        
+05365+1120 TOK 255    V2689 Ori             .                     .                     .                        
 05365-0643 J   798    V380 Ori              .                     .                     .                        
 05371-3932 YMG  11    AT Col                .                     .                     .                        
 05373+6409 HU 1107    19 Cam                .                     .                     .                        
@@ -784,6 +792,7 @@
 08570-5914 DUN  74A   V376 Car              .                     .                     .                        
 08580+3014 HO  252    61 Cnc                .                     .                     .                        
 08585+1151 HJ  110    alp Cnc               65 Cnc                Acubens               .                        
+08588-5303 VSP  24    V524 Vel              .                     .                     .                        
 08589-4714 HJ 4161A   FZ Vel                .                     .                     .                        
 08592+4803 HJ 2477    iot UMa               9 UMa                 Talitha               .                        
 08595+3225 SHJ 100    sig 3 Cnc             64 Cnc                .                     .                        
@@ -867,6 +876,7 @@
 10196-5724 FIN 162A   HP Car                .                     .                     .                        
 10200+1950 STF1424A   gam Leo               41 Leo                Algieba               .                           
 10200+1950 STF1424C   AD Leo                .                     .                     .                          
+10241+6534 CIA  31    ET UMa                .                     .                     .                          
 10262+0356 BU 1280A   RX Sex                .                     .                     .                        
 10276+0946 HJ  832A   45 Leo                CX Leo                .                     .                        
 10279+3642 HU  879    bet LMi               31 LMi                .                     .                        
@@ -881,6 +891,7 @@
 10350+0839 STF1450A   49 Leo                TX Leo                .                     .                        
 10363-1621 BU 1075    phi 2 Hya             .                     .                     .                        
 10363-6101 KRV  31    UZ Car                .                     .                     .                        
+10366-6448 CTI 389    V546 Car              .                     .                     .                        
 10422+3142 BLL  28A   RX LMi                .                     .                     .                        
 10424-6110 KRV  33    EY Car                .                     .                     .                        
 10430+2620 BU  913    40 LMi                .                     .                     .                        
@@ -906,6 +917,7 @@
 11006+0337 CHR  33    58 Leo                .                     .                     .                        
 11006-1819 HJ 1181A   R Crt                 .                     .                     .                        
 11007+0606 BU  598    59 Leo                .                     .                     .                        
+11007-2805 VSP  28    10 Crt                .                     .                     .                        
 11022+0954 STF1503A   AM Leo                .                     .                     .                        
 11023-6416 KRV  32    XY Car                .                     .                     .                        
 11037+6145 BU 1077    alp UMa               50 UMa                Dubhe                 .                        
@@ -1008,6 +1020,7 @@
 12372-6908 DON 541    alp Mus               .                     .                     .                        
 12389+1348 HDS1772    KM Com                .                     .                     .                        
 12392-0800 ENG  47    26 Vir                chi Vir               .                     .                     
+12399-6631 KOU  13    FH Mus                .                     .                     .                        
 12413-1301 STF1669    58 Crv             *  .                     .                     .                     
 12415-4858 HJ 4539    gam Cen               .                     .                     .                        
 12416+1026 H 6  81    27 Vir                GG Vir                .                     .                        
@@ -1083,6 +1096,7 @@
 13403-5737 KRV  36    XX Cen                .                     .                     .                        
 13407+1957 STF1772    1 Boo                 .                     .                     .                        
 13431+0332 STF1777    84 Vir                .                     .                     .                        
+13443-5101 VSP  40    V827 Cen              .                     .                     .                        
 13456-1546 HJ 2677    85 Vir                .                     .                     .                        
 13459-1226 BU  935    86 Vir                .                     .                     .                        
 13461+0507 STF1781A   HT Vir                .                     .                     .                        
@@ -1111,6 +1125,8 @@
 14083+4927 H 6 112A   13 Boo                CF Boo                .                     .                        
 14088+7733 BNU   9    4 UMi                 .                     .                     .                        
 14090-1020 CHR  40    96 Vir                .                     .                     .                        
+14102-2524 UC 2694    V353 Hya              .                     .                     .                        
+14107-4746 SKF1135    V759 Cen              .                     .                     .                        
 14123+0225 HJ 3343A   CU Vir                .                     .                     .                        
 14135+5147 STF1821    kap Boo               17 Boo                .                     .                        
 14141+1258 CHR  41    14 Boo                .                     .                     .                        
@@ -1120,8 +1136,10 @@
 14162+5122 STFA 26    21 Boo                iot Boo               .                     .                     
 14164+4605 VIG  17    lam Boo               19 Boo                Xuange                .                        
 14166-5955 I   366A   R Cen                 .                     .                     .                        
+14179-6803 RSS 324    DF Cir                .                     .                     .                        
 14191-1322 IOT   1    lam Vir               100 Vir               Khambalia             .                        
 14193+1300 ENG  51    18 Boo                .                     .                     .                        
+14197-3651 BU 1110    V1002 Cen             .                     .                     .                        
 14206-3753 SEE 204    psi Cen               .                     .                     .                        
 14218+0355 BAL2861A   AO Vir                .                     .                     .                        
 14252+5151 STT 580    the Boo               23 Boo                .                     .                        
@@ -1130,16 +1148,24 @@
 14275+7542 HJ 2733    5 UMi                 .                     .                     .                        
 14282-0214 STF1846    phi Vir               105 Vir               .                     .                        
 14282-2929 FIN 306    52 Hya                .                     .                     .                        
+14300-5608 KOU  29    V853 Cen              .                     .                     .                        
+14310-3006 RSS 341    Y Cen                 .                     .                     .                        
 14318+3022 HJ 2728    rho Boo               25 Boo                .                     .                        
 14321+3818 BLM   3A   gam Boo               27 Boo                Seginus               .                        
+14326-5027 RIZ  10    sig Lup               .                     .                     .                        
 14347+2945 STT 582    sig Boo               28 Boo                .                     .                        
 14351-6101 B  2338A   TX Cen                .                     .                     .                        
 14352+2438 RAO 503    AD Boo                .                     .                     .                        
+14359-6958 DON 664    CI Cir                .                     .                     .                        
+14360+0945 HZE   1    HN Boo                .                     .                     .                        
+14365-0536 GWP2417    QX Vir                .                     .                     .                        
 14384+3632 ALI 367A   GK Boo                .                     .                     .                         
 14396-6050 LDS 494C   Proxima Centauri      V645 Cen              .                     .                        
 14396-6050 RHD   1A   alp Cen               Rigel Kentaurus       .                     .                        
+14403-4548 SEE 209    IT Lup                .                     .                     .                        
 14407+1625 STF1864    pi 1 Boo              pi Boo                29 Boo A              .                        
 14411+1344 STF1865    zet Boo               30 Boo                .                     .                        
+14414-3548 TDS9269    V1063 Cen             .                     .                     .                        
 14419-4723 HDO 238    alp Lup               .                     .                     .                        
 14421+6116 STF1878A   DL Dra                .                     .                     .                        
 14425-6459 DUN 166    alp Cir               .                     .                     .                        
@@ -1163,6 +1189,7 @@
 14567-6247 FIN 372    the Cir               .                     .                     .                        
 14568+7454 S   666    8 UMi                 .                     .                     .                        
 14576-0010 H 6  51    1 Ser                 .                     .                     .                        
+14585+1106 GWP2477    NR Boo                .                     .                     .                        
 14587-2739 BU  239    59 Hya                .                     .                     .                        
 14589-1109 STF1894    18 Lib                .                     .                     .                        
 14592-4206 I  1260    kap Cen               .                     .                     .                        
@@ -1260,6 +1287,7 @@
 16038+0459 KUI  69    43 Ser                .                     .                     .                        
 16040-2156 LDS 548    V1044 Sco             .                     .                     .                         
 16044-1122 STF1998    51 Lib                xi Sco                .                     .                        
+16044-5343 DUN 198    QY Nor                .                     .                     .                        
 16052-5355 KRV  12    RS Nor                .                     .                     .                        
 16053-4931 CPO 454    V384 Nor              .                     .                     .                         
 16054-1948 BU  947A   bet 1 Sco             8 Sco A               bet Sco               Acrab                    
@@ -1279,6 +1307,7 @@
 16156-0822 BUP 165    18 Sco                .                     .                     .                        
 16160+1126 ENG  56    15 Her                .                     .                     .                        
 16165-0659 RST3939A   SW Oph                .                     .                     .                        
+16167+6714 ENG  57B   EW Dra                .                     .                     .                        
 16167+2909 SHJ 223    ups CrB               18 CrB                .                     .                        
 16171+5516 BLA   3    CR Dra                .                     .                     .                        
 16175+7545 LDS1844    eta UMi               21 UMi                .                     .                        
@@ -1386,6 +1415,7 @@
 17322+5511 STFA 35B   24 Dra                nu 1 Dra              nu Dra                .                        
 17336-3706 SEE 334A   lam Sco               35 Sco                Shaula                .                        
 17336-3706 TNG   1A   lam Sco               35 Sco                Shaula                .                        
+17339+1655 LDT  14    V1274 Her             .                     .                     .                        
 17346+0935 STFA 34    53 Oph                f Oph                 .                     .                     
 17349+1234 MCY   4    alp Oph               Rasalhague            .                     .                        
 17350+6153 BU  962    26 Dra                .                     .                     .                        
@@ -1553,6 +1583,7 @@
 19201+3752 ES 2489A   U Lyr                 .                     .                     .                        
 19205-0525 ISO  10A   26 Aql                .                     .                     .                        
 19217+2534 ES  483A   Z Vul                 .                     .                     .                        
+19217-1557 NOI   7    ups Sgr               .                     .                     .                        
 19226-4428 DUN 226    bet 1 Sgr             bet Sgr               Arkab Prior           .                        
 19244+1656 STFA 41    2 Sge                 .                     .                     .                        
 19250+1157 STT 588    31 Aql                .                     .                     .                        
@@ -1636,6 +1667,7 @@
 20069-0855 HDO 156B   RY Cap                .                     .                     .                        
 20076+1741 JEF   3    WZ Sge                .                     .                     .                        
 20089+7743 STF2675    kap Cep               1 Cep                 .                     .                        
+20094+3651 BNW   2    28 Cyg                V1624 Cyg             .                     .                        
 20095+4752 BLL  45A   SV Cyg                .                     .                     .                        
 20099+2055 STF2637    the Sge               17 Sge                .                     .                        
 20100+1021 A  1199A   V346 Aql              .                     .                     .                        
@@ -1669,6 +1701,7 @@
 20214+3656 BLL  50A   BI Cyg                .                     .                     .                        
 20222+4015 BU  665    gam Cyg               37 Cyg                Sadr                  .                        
 20225-4203 HJ 5190    kap 1 Sgr             kap Sgr               .                     .                        
+20237+3729 CIA  20    V2119 Cyg             .                     .                     .                        
 20238+3830 BUP 209A   V1322 Cyg             .                     .                     .                        
 20239-4225 BU  763    kap 2 Sgr             kap Sgr               .                     .                        
 20256+2723 J  2310A   BE Vul                .                     .                     .                        
@@ -1819,7 +1852,9 @@
 22058-0019 BUP 232    alp Aqr               34 Aqr                Sadalmelik            .                        
 22070+2521 STT 596    iot Peg               24 Peg                .                     .                        
 22082-4658 RST5483    alp Gru               Alnair                .                     .                        
+22084-3259 VSP  56    mu PsA                14 PsA                .                     .                     
 22092+3310 BU 1511    pi 1 Peg              27 Peg                .                     .                        
+22102+0612 VSP  57    tet Peg               26 Peg                .                     .                     
 22143-2104 H N  56A   41 Aqr                .                     .                     .                        
 22150+5703 ENG  84    23 Cep                eps Cep               .                     .                     
 22191+5607 A  1461    GP Cep                .                     .                     .                        
@@ -1898,6 +1933,7 @@
 23069-4331 JC   20    the Gru               .                     .                     .                        
 23077+4623 HJ 1849    4 And                 .                     .                     .                        
 23079+7523 STT 489    pi Cep                33 Cep                .                     .                        
+23083-1525 TSN 207    HK Aqr                .                     .                     .                        
 23095+0841 STF2982A   57 Peg                GZ Peg                .                     .                        
 23097+5920 KUI 115    2 Cas                 .                     .                     .                        
 23099-2227 RST3320    89 Aqr                .                     .                     .                        
@@ -1937,6 +1973,7 @@
 23441+6147 STI1204A   PZ Cas                .                     .                     .                        
 23460-1841 H 2  24    107 Aqr               i 2 Aqr               .                     .                        
 23460+4625 MCA  75    psi And               20 And                .                     .                        
+23465-4135 TOK 922    SX Phe                .                     .                     .                        
 23479-0246 S   835    20 Psc                .                     .                     .                        
 23488+6213 STT 508    6 Cas                 V566 Cas              .                     .                     
 23489-2808 BU 1013    del Scl               .                     .                     .                        
