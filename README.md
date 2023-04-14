@@ -13,9 +13,8 @@ don't use `docker`, it is quite easy to get going anyway by cloning the
 
 ### Running with `docker`:
 
-
-    * `docker pull akjmicro17/wds-tools`
-    * `docker run -it akjmicro17/wds-tools`
+* `docker pull akjmicro17/wds-tools`
+* `docker run -it akjmicro17/wds-tools`
 
 ### Or, grab the code via `github`:
 
