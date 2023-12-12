@@ -5,5 +5,10 @@ SELECT 'SkyObject=BeginObject
       CatalogNumber=WDS ' || wds_num
       || '
 EndObject=SkyObject'
-FROM tight_doubles;  -- change this to target ones of the preset views
-                     -- or to target a view you've set up in `dbsetup.sql`.
+FROM
+  (
+    SELECT DISTINCT(wds_num)
+    FROM medium_doubles    -- change this to target ones of the preset views
+                           -- or to target a view you've set up in `dbsetup.sql`.
+  )
+;
